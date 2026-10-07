@@ -1,7 +1,7 @@
 // Registro, login, logout y consulta del perfil con JWT en cookies
 
 import { UserModel, ProfileModel } from '../models/index.js';
-import { hashPassword, comparePassword } from '../helpers/bcrypt.helper.js';
+import { hashPassword, comparePassword } from '../helpers/bcrypt.js';
 import { generateToken } from '../helpers/jwt.helper.js';
 
 // Registrar usuario y crear su perfil automáticamente[cite: 15, 50]
